@@ -1,2 +1,14 @@
 # DL_project
-Deep Learning course final project at FRI-ULJ. Deep dive into Transformers (ViT and Swin) in Computer Vision and fine-tuning comparison.
+Deep Learning course final project at FRI-ULJ. The project is about getting a better intuition regarding attention through Explainable AI methods, specifically for Transformers in Computer Vision. The models looked at are the ViT and Swin Transformer models. The methods used are attention visualizations, information flow visualization with attention rollout, some LIME testing to see what features the model focuses on and some manual image slicing that tests how size and location of objects effects predicted classes.
+
+The full report can be read [here](/doc/Attention_in_CV_Through_XAI_NejcL.pdf). Bellow are some example images from the report.
+
+An example of attention visualization:
+![att visualization](doc/img/vit_heads_attention.png)
+
+An example of attention rollout: 
+
+![att rollout](doc/img/rollout_fusions.png)
+
+An example of attention rollout through the model:
+![att rollout through layers](doc/img/rollout_at_encoders.png)
